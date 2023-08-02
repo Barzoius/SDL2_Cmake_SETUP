@@ -11,3 +11,5 @@ set(CMAKE_CXX_STANDARD 14)
 
 add_executable(PROJECT_NAME main.cpp)
 target_link_libraries(PROJECT_NAME ${SDL2_LIBRARY} -lmingw32 -lSDL2main -lSDL2 -mwindows)
+
+#PROJECT_NAME means your project's name :))
