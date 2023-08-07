@@ -15,3 +15,4 @@ add_executable(PROJECT_NAME main.cpp)
 target_link_libraries(PROJECT_NAME ${SDL2_LIBRARY} -lmingw32 -lSDL2main -lSDL2 -lSDL2_Image -mwindows)
 
 #PROJECT_NAME means your project's name :))
+#Need to add find_package, include_directories lines for every other SDL2 sublibrary you add + target in target_link_libraries().
